@@ -38,7 +38,7 @@ public class Enterprise extends JFrame implements ActionListener, WindowListener
 	 */
 	public Enterprise () {		
 		super("Enterprise");
-		this.openConnection("", "");// Need to edit to talke input
+		this.openConnection("", "");// Need to edit to talk input
 		JPanel panel = new JPanel();
 		customer = new JButton("Customer");
 		customer.addActionListener(this);

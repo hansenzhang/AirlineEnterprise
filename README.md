@@ -1,5 +1,5 @@
 ---------
---About--
+#About
 ---------
 
 Hansen Zhang - Hsz215
@@ -12,7 +12,7 @@ Run enterprise.jar to start the program (there is no loading screen so please be
 patient for slow connections).
 
 ---------
---Usage--
+##Usage
 ---------
 The default view for Enterprise shows options for either Customer, Manager, or exit.
 
@@ -33,10 +33,10 @@ simplicity sake, but the prices can be changed when clicked on.  The create cust
 JFrame is the same as the create customer on the customer side.  Modify Reservation 
 requests a customer id (ranges are given in the popup itself, I didn't have enough
 time to verify customer ids) and from there opens up a new JFrame that allows managers
-to edit, view, and delete reservations for that customer, using the same interfaces that
-the customers use.
+to edit, view, and delete reservations for that customer, using the same interfaces that the customers use.
+
 ------------------------
---Database information--
+##Database information
 ------------------------
 
 ~2000 customers total. 
@@ -68,7 +68,7 @@ having reservations with multiple seats.  However, the database allows tables to
 
 
 --------
---Data--
+##Data
 --------
 Airport data was found on, bulk loaded from airport.csv into airport_staging.
 Routes data is found in the route_staging table, bulk loaded from routes.csv.

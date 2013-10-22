@@ -1,6 +1,4 @@
----------
 #About
----------
 
 Hansen Zhang - Hsz215
 Readme for Enterprise Database:
@@ -11,9 +9,9 @@ Java source files are found in ~/Zhang_hansen/java_src
 Run enterprise.jar to start the program (there is no loading screen so please be
 patient for slow connections).
 
----------
+
 ##Usage
----------
+
 The default view for Enterprise shows options for either Customer, Manager, or exit.
 
 The customer JFrame is called after a user logs in using their id and password in the 
@@ -35,9 +33,9 @@ requests a customer id (ranges are given in the popup itself, I didn't have enou
 time to verify customer ids) and from there opens up a new JFrame that allows managers
 to edit, view, and delete reservations for that customer, using the same interfaces that the customers use.
 
-------------------------
+
 ##Database information
-------------------------
+
 
 ~2000 customers total. 
 62 unique flight routes between 10 airports.
@@ -67,9 +65,9 @@ insert them into the database on time to finish the project.  That is the same c
 having reservations with multiple seats.  However, the database allows tables to have it.
 
 
---------
+
 ##Data
---------
+
 Airport data was found on, bulk loaded from airport.csv into airport_staging.
 Routes data is found in the route_staging table, bulk loaded from routes.csv.
 Both of these files were found from http://openflights.org/data.html.
